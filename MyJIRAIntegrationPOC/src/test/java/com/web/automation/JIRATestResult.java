@@ -26,4 +26,20 @@ public class JIRATestResult {
 		Assert.assertEquals(actual, expected);
 		System.out.println("Actual and Expected not matched");
 			}
+	@Test
+	public void testmethod4 (){
+		
+		String actual = "Selenium";
+		String expected = "Selenium";
+		Assert.assertEquals(actual, expected);
+		System.out.println("Actual and Expected matched");
+			}
+	@Test
+	public void testmethod5 (){
+		
+		String actual = "Selenium";
+		String expected = "Selenium";
+		Assert.assertEquals(actual, expected);
+		System.out.println("Actual and Expected matched");
+			}
 }
